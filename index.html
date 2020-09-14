@@ -14,53 +14,60 @@
           <img src="images/svg/logo.svg" alt="Logo svg">
           <h2 class="site-name">Site Name</h2>
         </div>
+        <input type="checkbox" id="humburger-menu-check">
         <ul class="menu">
-          <li>Home</li>
-          <li>Trending</li>
-          <li>Recent</li>
-          <li>Login</li>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Recent</a></li>
+          <li><a href="#">Login</a></li>
         </ul>
-        <div class="humburger-menu">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-        </div>
         <div class="search-icon">
           <img src="images/svg/search.svg" alt="">
         </div>
+        <label class="humburger-menu" for="humburger-menu-check">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </label>
       </div>
     </nav>
     <header>
+      <div class="overlay"></div>
       <div class="container">
-        <div class="overlay"></div>
-        <h1>A Personal Blog<br><span>Website</span></h1>
-        <div class="square-right"></div>
-        <div class="square-left"></div>
+        <h1>A Personal Blog<br><span class="text-yellow">Website</span></h1>
       </div>
     </header>
     <section id="trending">
       <div class="container">
         <div class="trending-grid">
-          <div class="card1">
+          <a href="post.html" class="card card1">
             <div class="overlay-gradient"></div>
-            <p class="post-date text-yellow">August 25, 2020</p>
-            <h3 class="post-title">A man in the jungles</h3>
-          </div>
-          <div class="card2">
+            <div class="card-content">
+              <p class="post-date text-yellow">August 25, 2020</p>
+              <h3 class="post-title">A man in the jungles</h3>
+            </div>
+          </a>
+          <a href="post.html" class="card card2">
             <div class="overlay-gradient"></div>
-            <p class="post-date text-yellow">August 25, 2020</p>
-            <h3 class="post-title">A man in the jungles</h3>
-          </div>
-          <div class="card3">
+            <div class="card-content">
+              <p class="post-date text-yellow">August 25, 2020</p>
+              <h3 class="post-title">A man in the jungles</h3>
+            </div>
+          </a>
+          <a href="post.html" class="card card3">
             <div class="overlay-gradient"></div>
-            <p class="post-date text-yellow">August 25, 2020</p>
-            <h3 class="post-title">A man in the jungles</h3>
-          </div>
-          <div class="card4">
+            <div class="card-content">
+              <p class="post-date text-yellow">August 25, 2020</p>
+              <h3 class="post-title">A man in the jungles</h3>
+            </div>
+          </a>
+          <a href="post.html" class="card card4">
             <div class="overlay-gradient"></div>
-            <p class="post-date text-yellow">August 25, 2020</p>
-            <h3 class="post-title">A man in the jungles</h3>
-          </div>
+            <div class="card-content">
+              <p class="post-date text-yellow">August 25, 2020</p>
+              <h3 class="post-title">A man in the jungles</h3>
+            </div>
+          </a>
         </div>
         <a href="#" class="see-more text-red">See more trending posts</a>
       </div>
@@ -70,67 +77,77 @@
         <h1 class="section-heading">Recent posts</h1>
         <hr class="heading-separator">
         <div class="categories-btns">
-          <div class="btn active">All</div>
-          <div class="btn">Technology</div>
-          <div class="btn">Animals</div>
-          <div class="btn">Sports</div>
-          <div class="btn">Movies</div>
+          <a href="#" class="btn active">All</a>
+          <a href="#" class="btn">Technology</a>
+          <a href="#" class="btn">Animals</a>
+          <a href="#" class="btn">Sports</a>
+          <a href="#" class="btn">Movies</a>
         </div>
         <div class="recent-grid">
-          <div class="card1">
+          <div class="card card1">
             <img src="images/blog-images/image2.jpg" alt="post1 image">
-            <p class="post-date text-red">August 25, 2020</p>
-            <h4 class="post-title">A man in the jungles</h4>
-            <p class="post-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
-            <button type="button" class="continue-reading-btn">Continue reading</button>
+            <div class="card-content">
+              <p class="post-date text-red">August 25, 2020</p>
+              <h4 class="post-title">A man in the jungles</h4>
+              <p class="post-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore...</p>
+              <a href="post.html" class="continue-reading-btn">Continue reading</a>
+            </div>
           </div>
-          <div class="card2">
+          <div class="card card2">
             <img src="images/blog-images/image2.jpg" alt="post2 image">
-            <p class="post-date text-red">August 25, 2020</p>
-            <h4 class="post-title">A man in the jungles</h4>
-            <p class="post-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
-            <button type="button" class="continue-reading-btn">Continue reading</button>
+            <div class="card-content">
+              <p class="post-date text-red">August 25, 2020</p>
+              <h4 class="post-title">A man in the jungles</h4>
+              <p class="post-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore...</p>
+              <a href="post.html" class="continue-reading-btn">Continue reading</a>
+            </div>
           </div>
-          <div class="card3">
+          <div class="card card3">
             <img src="images/blog-images/image2.jpg" alt="post3 image">
-            <p class="post-date text-red">August 25, 2020</p>
-            <h4 class="post-title">A man in the jungles</h4>
-            <p class="post-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
-            <button type="button" class="continue-reading-btn">Continue reading</button>
+            <div class="card-content">
+              <p class="post-date text-red">August 25, 2020</p>
+              <h4 class="post-title">A man in the jungles</h4>
+              <p class="post-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore...</p>
+              <a href="post.html" class="continue-reading-btn">Continue reading</a>
+            </div>
           </div>
-          <div class="card4">
+          <div class="card card4">
             <img src="images/blog-images/image2.jpg" alt="post4 image">
-            <p class="post-date text-red">August 25, 2020</p>
-            <h4 class="post-title">A man in the jungles</h4>
-            <p class="post-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
-            <button type="button" class="continue-reading-btn">Continue reading</button>
+            <div class="card-content">
+              <p class="post-date text-red">August 25, 2020</p>
+              <h4 class="post-title">A man in the jungles</h4>
+              <p class="post-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore...</p>
+              <a href="post.html" class="continue-reading-btn">Continue reading</a>
+            </div>
           </div>
-          <div class="card5">
+          <div class="card card5">
             <img src="images/blog-images/image2.jpg" alt="post5 image">
-            <p class="post-date text-red">August 25, 2020</p>
-            <h4 class="post-title">A man in the jungles</h4>
-            <p class="post-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
-            <button type="button" class="continue-reading-btn">Continue reading</button>
+            <div class="card-content">
+              <p class="post-date text-red">August 25, 2020</p>
+              <h4 class="post-title">A man in the jungles</h4>
+              <p class="post-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore...</p>
+              <a href="post.html" class="continue-reading-btn">Continue reading</a>
+            </div>
           </div>
-          <div class="card6">
+          <div class="card card6">
             <img src="images/blog-images/image2.jpg" alt="post6 image">
-            <p class="post-date text-red">August 25, 2020</p>
-            <h4 class="post-title">A man in the jungles</h4>
-            <p class="post-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
-            <button type="button" class="continue-reading-btn">Continue reading</button>
+            <div class="card-content">
+              <p class="post-date text-red">August 25, 2020</p>
+              <h4 class="post-title">A man in the jungles</h4>
+              <p class="post-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore...</p>
+              <a href="post.html" class="continue-reading-btn">Continue reading</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section id="subscribe">
+      <div class="overlay"></div>
       <div class="container">
-        <div class="overlay"></div>
         <h4 class="subscribe-heading">Subscribe now to notify you about any added posts</h4>
         <form class="subscribe-form">
           <input type="email" id="email" placeholder="Enter your e-mail here">
-          <input type="submit" id="subscribe" value="Subscribe">
-          <div class="square-right"></div>
-          <div class="square-left"></div>
+          <input type="submit" id="subscribe-btn" value="Subscribe">
         </form>
       </div>
     </section>
@@ -143,16 +160,16 @@
               <h2 class="site-name">Site Name</h2>
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <span class="vertical-separator"></span>
+            <span class="footer-separator"></span>
           </div>
           <div class="social-side">
             <h4>Connect on Social Media</h4>
             <div class="social-icons">
-              <span class="facebook"><img src="images/social/facebook.png" alt="connect on facebook"></span>
-              <span class="facebook"><img src="images/social/youtube.png" alt="connect on youtube"></span>
-              <span class="facebook"><img src="images/social/linkedin.png" alt="connect on linkedin"></span>
-              <span class="facebook"><img src="images/social/twitter.png" alt="connect on twitter"></span>
-              <span class="facebook"><img src="images/social/instagram.png" alt="connect on instagram"></span>
+              <span><img src="images/social/facebook.png" alt="connect on facebook"></span>
+              <span><img src="images/social/youtube.png" alt="connect on youtube"></span>
+              <span><img src="images/social/linkedin.png" alt="connect on linkedin"></span>
+              <span><img src="images/social/twitter.png" alt="connect on twitter"></span>
+              <span><img src="images/social/instagram.png" alt="connect on instagram"></span>
             </div>
           </div>
         </div>

@@ -1,0 +1,157 @@
+#recent{
+  margin: 20px 0 0 0;
+  padding: 50px 0;
+  background-color: #ececec;
+}
+
+.categories-btns{
+  text-align: center;
+  margin:30px 0;
+}
+
+.categories-btns .btn{
+  display: inline-block;
+  border: 2px solid #ff0085;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin: 5px;
+  text-decoration: none;
+  color: #2d2d2d;
+  transition: all 0.2s ease;
+}
+
+.categories-btns .btn.active, .categories-btns .btn:hover{
+  color: #fff;
+  background-color: #ff0085;
+}
+
+.recent-grid{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas: 'card1 card2 card2'
+    'card1 card3 card4'
+    'card5 card3 card4'
+    'card5 card6 card6';
+}
+
+.recent-grid .card{
+  background-color: #fff;
+  box-shadow: 0 0 20px 2px rgba(0,0,0,0.18);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.5s ease;
+}
+
+.recent-grid .card:hover{
+  box-shadow: 0 0 0px 0px rgba(0,0,0,0.1);
+}
+
+.recent-grid .card img{
+  width: 100%;
+  margin: 0;
+  display: block;
+}
+
+.recent-grid .card1{
+  grid-area: card1;
+}
+
+.recent-grid .card2{
+  grid-area: card2;
+}
+
+.recent-grid .card3{
+  grid-area: card3;
+}
+
+.recent-grid .card4{
+  grid-area: card4;
+}
+
+.recent-grid .card5{
+  grid-area: card5;
+}
+
+.recent-grid .card6{
+  grid-area: card6;
+}
+
+.recent-grid .card2 img, .recent-grid .card6 img{
+  width: 50%;
+}
+
+.recent-grid .card2, .recent-grid .card6{
+  flex-direction: row;
+}
+
+.recent-grid .card .card-content{
+ position: relative;
+ display: flex;
+ justify-content: flex-end;
+ flex-direction: column;
+ font-size: 1.3rem;
+ margin: 0;
+ font-weight: 900;
+}
+
+.recent-grid .card .card-content .post-title{
+ font-size: 2rem;
+ margin: 0 10px;
+}
+
+.recent-grid .card .card-content .post-date{
+ margin: 10px 10px 0 10px;
+}
+
+.recent-grid .card .card-content .post-intro{
+ margin: 10px;
+}
+
+.recent-grid .card .continue-reading-btn{
+ top: 100%;
+ left: 0;
+ background-color: #f0b037;
+ outline: 0;
+ border: 0;
+ width: 100%;
+ padding: 10px;
+ font-family: 'El Messiri', sans-serif;
+ font-size: 1.8rem;
+ cursor: pointer;
+ border: 2px solid #f0b037;
+ transition: all 0.2s ease;
+ color: #2d2d2d;
+ text-decoration: none;
+ text-align: center;
+}
+.recent-grid .card .continue-reading-btn:hover{
+  background: #fff;
+}
+
+
+@media (max-width:992px){
+  .recent-grid{
+    grid-template-areas: 'card1 card2'
+      'card3 card4'
+      'card5 card6';
+  }
+
+  .recent-grid .card2 img, .recent-grid .card6 img{
+    width: 100%;
+  }
+
+  .recent-grid .card2, .recent-grid .card6{
+    flex-direction: column;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .recent-grid{
+    grid-template-areas: 'card1''card2'
+      'card3''card4'
+      'card5''card6';
+  }
+}

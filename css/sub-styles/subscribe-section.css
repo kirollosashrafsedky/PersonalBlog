@@ -1,0 +1,60 @@
+#subscribe{
+  background-color: #fff;
+  background-image: url('../../images/backgrounds/subscribe-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 100px 0;
+}
+
+#subscribe .overlay{
+  background-color: rgba(0,0,0,0.6);
+}
+
+#subscribe .container{
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-heading{
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#subscribe form{
+  display: flex;
+  width: 90%;
+}
+
+#subscribe #email{
+  font-size: 1.4rem;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  min-width: 200px;
+  flex: 1;
+
+}
+
+#subscribe #subscribe-btn{
+  font-size: 1.4rem;
+  padding: 10px;
+  outline: 0;
+  border: 0;
+  border-top-right-radius: 15px;
+  background-color: #f0b037;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+
+}
+
+#subscribe #subscribe-btn:hover{
+
+}
