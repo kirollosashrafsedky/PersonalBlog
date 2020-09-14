@@ -4,6 +4,7 @@
 @import "sub-styles/recent-posts-section.css";
 @import "sub-styles/subscribe-section.css";
 @import "sub-styles/footer.css";
+@import "sub-styles/post.css";
 
 /* ---------General rules------------ */
 
@@ -35,7 +36,7 @@ body{
   margin-right: auto;
   margin-left: auto;
   /* border: 1px solid red; */
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 @media (min-width: 576px) {

@@ -8,6 +8,160 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Changa:wght@400;500;600;700&family=El+Messiri:wght@400;500;600;700&display=swap">
   </head>
   <body>
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <img src="images/svg/logo.svg" alt="Logo svg">
+          <h2 class="site-name">Site Name</h2>
+        </div>
+        <input type="checkbox" id="humburger-menu-check">
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="#">Trending</a></li>
+          <li><a href="#">Recent</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+        <div class="search-icon">
+          <img src="images/svg/search.svg" alt="">
+        </div>
+        <label class="humburger-menu" for="humburger-menu-check">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </label>
+      </div>
+    </nav>
+    <header>
+      <div class="overlay"></div>
+      <div class="container">
+        <h1>Home / <span class="text-yellow">A man in the jungles</span></h1>
+      </div>
+    </header>
+    <div class="container main-content">
+      <main>
+        <div class="container">
+          <h1 class="section-heading">A man in the jungles</h1>
+          <hr class="heading-separator">
+          <figure>
+            <img src="images/blog-images/image1.jfif" alt="blog post1 image">
+            <figcaption>By Kirollos Ashraf - August 25, 2020<span class="category">Technology</span></figcaption>
+          </figure>
+          <article>
+            <h1>Main heading</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident <a href="#" class="text-red">labore et dolore magna aliqua.</a>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2>Sub heading</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </article>
+          <div class="share">
+            <h3>Share on social media</h3>
+            <div class="social-icons">
+              <span><img src="images/social/facebook.png" alt="connect on facebook"></span>
+              <span><img src="images/social/linkedin.png" alt="connect on linkedin"></span>
+              <span><img src="images/social/twitter.png" alt="connect on twitter"></span>
+            </div>
+          </div>
+        </div>
+      </main>
+      <aside>
+        <section id="side-author">
+          <h4 class="side-section-heading">About the author</h4>
+          <img src="images/authors/author1.jpg" alt="author name">
+          <h5 class="author-name">Kirollos Ashraf</h5>
+          <h6 class="author-title text-red">Web designer<br>at XYZ company</h6>
+          <p class="author-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        </section>
+        <section id="side-recent">
+          <h4 class="side-section-heading">Recent Posts</h4>
+          <div class="card">
+            <img src="images/blog-images/image2.jpg" alt="post6 image">
+            <div class="card-content">
+              <p class="post-date text-red">August 25, 2020</p>
+              <h4 class="post-title">A man in the jungles</h4>
+              <a href="post.html" class="continue-reading-btn">Open post</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/blog-images/image2.jpg" alt="post6 image">
+            <div class="card-content">
+              <p class="post-date text-red">August 25, 2020</p>
+              <h4 class="post-title">A man in the jungles</h4>
+              <a href="post.html" class="continue-reading-btn">Open post</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/blog-images/image2.jpg" alt="post6 image">
+            <div class="card-content">
+              <p class="post-date text-red">August 25, 2020</p>
+              <h4 class="post-title">A man in the jungles</h4>
+              <a href="post.html" class="continue-reading-btn">Open post</a>
+            </div>
+          </div>
+        </section>
+        <section id="side-related">
+          <h4 class="side-section-heading">Related Posts</h4>
+          <div class="card">
+            <img src="images/blog-images/image2.jpg" alt="post6 image">
+            <div class="card-content">
+              <p class="post-date text-red">August 25, 2020</p>
+              <h4 class="post-title">A man in the jungles</h4>
+              <a href="post.html" class="continue-reading-btn">Open post</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/blog-images/image2.jpg" alt="post6 image">
+            <div class="card-content">
+              <p class="post-date text-red">August 25, 2020</p>
+              <h4 class="post-title">A man in the jungles</h4>
+              <a href="post.html" class="continue-reading-btn">Open post</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/blog-images/image2.jpg" alt="post6 image">
+            <div class="card-content">
+              <p class="post-date text-red">August 25, 2020</p>
+              <h4 class="post-title">A man in the jungles</h4>
+              <a href="post.html" class="continue-reading-btn">Open post</a>
+            </div>
+          </div>
+        </section>
+      </aside>
+    </div>
 
+
+    <section id="subscribe">
+      <div class="overlay"></div>
+      <div class="container">
+        <h4 class="subscribe-heading">Subscribe now to notify you about any added posts</h4>
+        <form class="subscribe-form">
+          <input type="email" id="email" placeholder="Enter your e-mail here">
+          <input type="submit" id="subscribe-btn" value="Subscribe">
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="sub-container">
+          <div class="about-side">
+            <div class="logo">
+              <img src="images/svg/logo.svg" alt="Logo svg">
+              <h2 class="site-name">Site Name</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <span class="footer-separator"></span>
+          </div>
+          <div class="social-side">
+            <h4>Connect on Social Media</h4>
+            <div class="social-icons">
+              <span><img src="images/social/facebook.png" alt="connect on facebook"></span>
+              <span><img src="images/social/youtube.png" alt="connect on youtube"></span>
+              <span><img src="images/social/linkedin.png" alt="connect on linkedin"></span>
+              <span><img src="images/social/twitter.png" alt="connect on twitter"></span>
+              <span><img src="images/social/instagram.png" alt="connect on instagram"></span>
+            </div>
+          </div>
+        </div>
+        <p class="copyrights">Created and designed by <span>Kirollos Ashraf</span><br><span>Udacity</span> Frontend Nanodegree</p>
+      </div>
+    </footer>
   </body>
 </html>
