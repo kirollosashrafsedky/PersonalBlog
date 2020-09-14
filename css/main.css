@@ -1,0 +1,13 @@
+@import "sub-styles/nav.css";
+@import "sub-styles/header.css";
+@import "sub-styles/trending-posts-section.css";
+@import "sub-styles/recent-posts-section.css";
+@import "sub-styles/subscribe-section.css";
+@import "sub-styles/footer.css";
+
+/* ---------General rules------------ */
+
+body{
+  font-family: 'Changa', sans-serif;
+  font-family: 'El Messiri', sans-serif;
+}

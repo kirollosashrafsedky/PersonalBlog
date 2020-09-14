@@ -1,0 +1,6 @@
+white : #fff;
+black: #2d2d2d;
+yellow: #f0b037;
+red: #ff0085;
+light grey: #ececec;
+dark grey: #8b8a8a;
