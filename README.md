@@ -5,5 +5,7 @@ and the blog post page contains information about the author, related posts, rec
 
 ## personal info
 Name : Kirollos Ashraf Sedky
+<br />
 Program : Udacity Front end development Nanodegree
+<br />
 Date: 15/9/2020
